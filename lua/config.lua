@@ -6,3 +6,9 @@ vim.opt.number = true
 vim.opt.relativenumber = true
 
 vim.opt.incsearch = true
+
+vim.g.mapleader = " "
+vim.g.maplocalleader = "\\"
+
+vim.keymap.set("n", "<leader>pe", vim.cmd.Ex)
+
